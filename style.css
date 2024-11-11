@@ -171,7 +171,7 @@ blockquote p:last-child::after {
     margin-left: 0.3em;
 }
 
-.card-daniel {
+#daniel-clifford {
     background-color: var(--clr-voilet);
     background-image: url(images/bg-pattern-quotation.svg);
     background-position: 90% 0%;
@@ -182,12 +182,12 @@ blockquote p:last-child::after {
     }
 }
 
-.card-jonathan {
+#jonathan-walters {
     background-color: var(--clr-darkgrey-blue);
 }
 
-.card-jeanette,
-.card-kira {
+#jeanette-harmon,
+#kira-whittle {
     background-color: var(--clr-white);
     color: var(--clr-darkgrey-blue);
 
@@ -204,7 +204,7 @@ blockquote p:last-child::after {
     }
 }
 
-.card-patrick {
+#patrick-abrams {
     background-color: var(--clr-black-blue);
 
     img {
@@ -220,23 +220,23 @@ blockquote p:last-child::after {
     place-items: center;
   }
 
-  .card-daniel {
+  #daniel-clifford {
     grid-column: 1 / 7;
     grid-row: 1 / 3;
   }
-  .card-jonathan {
+  #jonathan-walters {
     grid-column: 7 / 10;
     grid-row: 1 / 3;
   }
-  .card-jeanette {
+  #jeanette-harmon {
     grid-column: 1 / 4;
     grid-row: 3 / 5;
   }
-  .card-patrick {
+  #patrick-abrams {
     grid-column: 4 / 10;
     grid-row: 3 / 5;
   }
-  .card-kira {
+  #kira-whittle {
     grid-column: 10 / 13;
     grid-row: 1 / 5;
   }
